@@ -17,5 +17,7 @@ class CarTest:
         for i in range(5):
             my_car.brake()
             print("Current speed after braking:", my_car.get_speed())
-                  
+            
 #Start the test program
+    if __name__ == '__main__':
+        main()
