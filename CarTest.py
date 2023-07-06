@@ -1,4 +1,6 @@
 #Import the main program
+from Car import *
+
 #Create a class for testing
 #Create a method for testing
 #Create an object with the car's year and make
