@@ -9,4 +9,6 @@ class Car:
     def accelerate(self):
         self.__speed += 5
 #Create a class for car's braking speed value
+    def brake(self):
+        self.__speed -= 5
 #Create a getter method for the car speed
