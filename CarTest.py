@@ -7,7 +7,10 @@ class CarTest:
     def main():
 #Create an object with the car's year and make
         my_car = Car(2020, "Chevrolet")
-        
+       
 #Call the accelerate method using for loop
+        for i in range(5):
+            my_car.accelerate()
+            print("Current speed after accelerating:", my_car.get_speed())
 #Call the brake method using for loop           
 #Start the test program
